@@ -22,7 +22,7 @@ public class EmployeeApp {
 				System.out.println("7:  DISPLAY an Employee's Gross Salary");
 				System.out.println("8:  SORT Employees");
 				System.out.println("9:  Iterate highsalary employees than given salary");
-/*				System.out.println("10: Print the salary of an employee");*/
+				System.out.println("10: Print the salary of an employee");
 				System.out.println("11  Exit");
 				int option = sc.nextInt();
 				switch (option) {
@@ -53,9 +53,9 @@ public class EmployeeApp {
 				case 9:
 					highSalaryIterator(sc);
 					break;
-/*				case 10:
+				case 10:
 					getSalary(sc);
-					break;*/
+					break;
 				case 11:
 					eService.exit();
 					break;
